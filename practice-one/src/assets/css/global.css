@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Circular Std";
+    src: url("../fonts/circular-std-medium-500.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --width-max: 1440px;
+    --font-size-tiny: 14px;
+    --font-size-small: 18px;
+    --font-size-normal: 24px;
+    --font-weight-light: 400;
+    --font-weight-medium: 700;
+    --font-weight-bold: 900;
+}
+
+body {
+    font-family: "Circular Std";
+    color: rgba(25, 24, 37, 0.5);
+}
+
+/* TEXT */
+.text--tiny {
+    font-size: var(--font-size-tiny);
+}
