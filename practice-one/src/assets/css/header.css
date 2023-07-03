@@ -1,71 +1,69 @@
 .header {
-    max-width: var(--width-max);
-    display: flex;
-    padding: 32px 128px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+  width: var(--width-max);
+  display: flex;
+  width: 1184px;
+  padding: 32px 0px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .header__logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-.header--title {
-    color: #191825;
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: var(--font-weight-bold);
-    line-height: 40px
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  color: #191825;
+  font-size: 24px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
 }
 
 .nav__list {
-    display: flex;
-}
-
-.header--title {
-    padding-left: 16px;
-}
-
-.nav__item {
-    padding: 0 32px;
-}
-
-.link {
-    text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
 }
 
 .nav--link {
-    font-weight: var(--font-weight-medium);
-    line-height: 120%;
-    color: rgba(25, 24, 37, 0.50);
+  font-weight: var(--font-weight-medium);
+  line-height: 120%;
+  color: rgba(25, 24, 37, 0.5);
 }
 
-.nav--link:hover{
-    color: rgba(34, 40, 49, 1);
+.nav--link:hover {
+  color: rgba(34, 40, 49, 1);
 }
 
 .btn__group {
-    display: flex;
+  display: flex;
+  align-items: flex-start;
 }
 
 .btn__login {
-    padding: 16px 32px;
-    border-radius: 100px;
-    background-color: white;
-    color: #222831;
-    font-weight: 700;
-    line-height: 120%;
+  padding: 16px 32px;
+  border-radius: 100px;
+  background-color: white;
+  color: #222831;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .btn__signup {
-    padding: 16px 32px;
-    border-radius: 100px;
-    color: #EEE;
-    border-radius: 100px;
-    background-color: #5D50C6;
-    font-weight: 700;
-    line-height: 120%;
+  padding: 16px 32px;
+  border-radius: 100px;
+  color: #eee;
+  border-radius: 100px;
+  background-color: #5d50c6;
+  font-weight: 700;
+  line-height: 120%;
 }

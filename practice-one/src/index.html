@@ -1,34 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travlog</title>
-    <link rel="stylesheet" href="./assets/css/index.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <a href="#" class="link header__logo">
-            <img src="./assets/images/logo.png" alt="logo">
-            <h1 class="header--title">Travlog</h1>
-        </a>
-        <nav class="nav header__nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav--link text--tiny link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav--link text--tiny link">Discover</a></li>
-                <li class="nav__item"><a href="#" class="nav--link text--tiny link">Special Deals</a></li>
-                <li class="nav__item"><a href="#" class="nav--link text--tiny link">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="btn__group">
-            <a href="" class="btn btn__login link text--tiny">Log In</a>
-            <a href="" class="btn btn__signup link text--tiny">Sign Up</a>
-        </div>
-        </div>
+      <a href="javascript:void(0)" class="link header__logo">
+        <img
+          src="./assets/images/logo.png"
+          alt="logo"
+          height="40px"
+          width="40px"
+          class="logo-icon"
+        />
+        <span class="title">Travlog</span>
+      </a>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="javascript:void(0)" class="nav--link text--tiny link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="javascript:void(0)" class="nav--link text--tiny link">Discover</a>
+          </li>
+          <li class="nav__item">
+            <a href="javascript:void(0)" class="nav--link text--tiny link"
+              >Special Deals</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="javascript:void(0)" class="nav--link text--tiny link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="btn__group">
+        <a href="javascript:void(0)" class="btn btn__login link text--tiny">Log In</a>
+        <a href="javascript:void(0)" class="btn btn__signup link text--tiny">Sign Up</a>
+      </div>
     </header>
-    <footer></footer>
-</body>
 
+    <main class="content">
+      <section class="section introduction">
+        <div class="container__introduction">
+          <a href="javascript:void(0)" class="btn btn__explore link">
+            <span class="text text--tiny text--pink"> Explore the world! </span
+            ><img
+              src="./assets/images/explore-icon.png"
+              alt="explore"
+              class="explore-icon"
+            />
+          </a>
+          <h1 class="introduction-title">
+            Travel <span class="text text--pink">top destination</span> of the
+            world
+          </h1>
+          <p class="introduction-paragraph text--small">
+            We always make our customer happy by providing<br />
+            as many choices as possible
+          </p>
+          <div class="btn__group">
+            <button class="btn btn-get-started">
+              <span class="text text--tiny">Get Started</span>
+            </button>
+            <button class="btn btn-watch-demo">
+              <img src="./assets/images/play-icon.png" alt="Watch Demo" />
+              <span class="text text--tiny">Watch demo</span>
+            </button>
+          </div>
+        </div>
+        <div class="container__image">
+          <img
+            src="./assets/images/map.png"
+            alt="map"
+            class="img-map"
+            width="772px"
+            height="288px"
+          />
+          <div class="travel-images">
+            <div class="travel-images__col-1">
+              <img
+                src="./assets/images/the-alley.png"
+                alt="the alley"
+                class="img-the-alley"
+                width="272px"
+                height="300px"
+              />
+              <img
+                src="./assets/images/girl-and-mountain.png"
+                alt="girl and mountain"
+                class="img-girl-mountain"
+                width="272px"
+                height="300px"
+              />
+            </div>
+            <div class="travel-images__col-2">
+              <img
+                src="./assets/images/photographer.png"
+                alt="photographer"
+                class="img-photographer"
+                width="272px"
+                height="400px"
+              />
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="btn btn-icon btn-send"
+            ><img src="./assets/images/send-icon.png" alt=""
+          /></a>
+          <a href="javascript:void(0)" class="btn btn-icon btn-top-places link"
+            ><img src="./assets/images/location-icon.png" alt="" class="" />
+            <span class="text text--tiny">Top Places</span></a
+          >
+          <a href="javascript:void(0)" class="btn btn-icon btn-add-contact"
+            ><img
+              src="./assets/images/add-contact-icon.png"
+              alt=""
+              class="add-contact-icon"
+          /></a>
+        </div>
+      </section>
+
+      <section class="section sponsor">
+        <ul class="sponsor__list">
+          <li>
+            <img src="./assets/images/tripadvisor-logo.png" alt="Tripadvisor" />
+          </li>
+          <li>
+            <img src="./assets/images/expedia-logo.png" alt="Expedia" />
+          </li>
+          <li>
+            <img src="./assets/images/booking-logo.png" alt="Booking.com" />
+          </li>
+          <li><img src="./assets/images/airbnb.png" alt="Airbnb" /></li>
+          <li><img src="./assets/images/orbitz-logo.png" alt="Orbitz" /></li>
+        </ul>
+      </section>
+
+      <section class="section services">
+        <div class="services__introduce">
+          <h2 class="services__introduce--title text--pink">Services</h2>
+          <h3 class="text--large">Our top value categories for you</h3>
+        </div>
+        <div class="cards">
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                src="./assets/images/earth-location.png"
+                alt="earth location"
+                width="64px"
+                height="64px"
+              />
+              <div class="card__text">
+                <h5 class="card__title">Best Tour Guide</h5>
+                <p class="card__paragraph">
+                  What looked like a small patch of purple grass, above five
+                  feet.
+                </p>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./assets/images/calendar.png"
+                alt="calendar"
+                width="64px"
+                height="64px"
+              />
+              <div class="card__text">
+                <h5 class="card__title">Easy Booking</h5>
+                <p class="card__paragraph">
+                  Square, was moving across the sand in their direction.
+                </p>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./assets/images/cloudy.png"
+                alt="cloudy"
+                width="64px"
+                height="64px"
+              />
+              <div class="card__text">
+                <h5 class="card__title">Weather Forecast</h5>
+                <p class="card__paragraph">
+                  What looked like a small patch of purple grass, above five
+                  feet.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section destination">
+        <div class="direction__container">
+          <div class="direction__container--title">
+            <h2 class="text section__title">Top Destination</h2>
+            <h3 class="text text--large">Explore top destination</h3>
+          </div>
+          <div class="direction__container--buttons">
+            <button class="btn btn-left">
+              <img src="./assets/images/arrow-left-icon.png" alt="left" />
+            </button>
+            <button class="btn btn-right">
+              <img src="./assets/images/arrow-right-icon.png" alt="left" />
+            </button>
+          </div>
+        </div>
+        <div class="direction__container">
+          <ul class="direction-list">
+            <li class="direction-item">
+              <img src="./assets/images/beach.png" alt="beach" />
+              <div class="direction-item__info">
+                <div class="direction-item__info--content">
+                  <div class="title-price">
+                    <h6 class="title-price__title">
+                      Paradise Beach, Bantayan Island
+                    </h6>
+                    <h6 class="title-price__price text--pink">$550.16</h6>
+                  </div>
+                  <p class="direction-item__location">Rome, Italy</p>
+                </div>
+                <div class="direction-item__rate">
+                  <h6 class="direction-item__rate--point">4.8</h6>
+                  <img src="./assets/images/orange-star-icon.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="direction-item">
+              <img src="./assets/images/fish.png" alt="beach" />
+              <div class="direction-item__info">
+                <div class="direction-item__info--content">
+                  <div class="title-price">
+                    <h6 class="title-price__title">
+                      Ocean with full of Colors
+                    </h6>
+                    <h6 class="title-price__price text--pink">$20.99</h6>
+                  </div>
+                  <p class="direction-item__location">Maldives</p>
+                </div>
+                <div class="direction-item__rate">
+                  <h6 class="direction-item__rate--point">4.5</h6>
+                  <img src="./assets/images/orange-star-icon.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="direction-item">
+              <img src="./assets/images/mountain.png" alt="beach" />
+              <div class="direction-item__info">
+                <div class="direction-item__info--content">
+                  <div class="title-price">
+                    <h6 class="title-price__title">
+                      Mountain View, Above the cloud
+                    </h6>
+                    <h6 class="title-price__price text--pink">$150.99</h6>
+                  </div>
+                  <p class="direction-item__location">United Arab Emeries</p>
+                </div>
+                <div class="direction-item__rate">
+                  <h6 class="direction-item__rate--point">5.0</h6>
+                  <img src="./assets/images/orange-star-icon.png" alt="" />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section travel-point">
+        <img
+          src="./assets/images/travel-point-bg.png"
+          alt="travel point"
+          height="697px"
+          width="871px"
+        />
+        <div class="travel-point__container">
+          <div class="travel-point__info">
+            <div class="travel-point__info--title">
+              <h2 class="section__title">Travel Point</h2>
+              <h3 class="text--large">
+                We helping you find your dream location
+              </h3>
+            </div>
+            <p class="travel-point__info--paragraph">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC.
+            </p>
+          </div>
+          <div class="travel-point__parameter">
+            <div class="travel-point__parameter--row">
+              <div class="row__item">
+                <h4 class="row__item--quantity">500+</h4>
+                <p class="row__item--paragraph">Holiday Package</p>
+              </div>
+              <div class="row__item">
+                <h4 class="row__item--quantity">100</h4>
+                <p class="row__item--paragraph">Luxury Hotel</p>
+              </div>
+            </div>
+            <div class="travel-point__parameter--row">
+              <div class="row__item">
+                <h4 class="row__item--quantity">7</h4>
+                <p class="row__item--paragraph">Premium Airlines</p>
+              </div>
+              <div class="row__item">
+                <h4 class="row__item--quantity">2k+</h4>
+                <p class="row__item--paragraph">Happy Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/images/travel-point-icon.png"
+          alt="button travel point"
+          class="btn__travel-point"
+          height="353px"
+          width="277px"
+        />
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

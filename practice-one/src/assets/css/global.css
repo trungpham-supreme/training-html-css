@@ -1,28 +1,96 @@
 @font-face {
-    font-family: "Circular Std";
-    src: url("../fonts/circular-std-medium-500.ttf") format("truetype");
+  font-family: "Circular Std";
+  src: url("../fonts/circular-std-medium-500.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter-Medium.ttf") format("truetype");
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --width-max: 1440px;
-    --font-size-tiny: 14px;
-    --font-size-small: 18px;
-    --font-size-normal: 24px;
-    --font-weight-light: 400;
-    --font-weight-medium: 700;
-    --font-weight-bold: 900;
+  --width-max: 1440px;
+  --font-size-tiny: 14px;
+  --font-size-small: 18px;
+  --font-size-normal: 24px;
+  --font-size-large: 44px;
+  --font-weight-light: 400;
+  --font-weight-medium: 700;
+  --font-weight-bold: 900;
+  --color-pink: #f85e9f;
 }
 
 body {
-    font-family: "Circular Std";
-    color: rgba(25, 24, 37, 0.5);
+  font-family: "Circular Std";
+  color: rgba(25, 24, 37, 0.5);
+}
+
+.content {
+  width: var(--width-max);
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 128px;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* TEXT */
 .text--tiny {
-    font-size: var(--font-size-tiny);
+  font-size: var(--font-size-tiny);
+  font-weight: 700;
+  line-height: 120%;
+}
+.text--small {
+  font-size: var(--font-size-small);
+}
+
+.text--large {
+  font-size: var(--font-size-large);
+  color: #191825;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.text--pink {
+  color: var(--color-pink);
+}
+
+.section__title {
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 4.6px;
+  text-transform: uppercase;
+  color: var(--color-pink);
 }
