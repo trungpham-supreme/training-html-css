@@ -1,7 +1,8 @@
 .header {
-  max-width: var(--width-max);
+  width: var(--width-max);
   display: flex;
-  padding: 32px 128px;
+  width: 1184px;
+  padding: 32px 0px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -11,10 +12,9 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  text-decoration: none;
 }
 
-.logo-icon{
+.logo-icon {
   width: 40px;
   height: 40px;
 }
@@ -22,25 +22,16 @@
 .title {
   color: #191825;
   font-size: 24px;
-  text-decoration: none;
-  font-weight: var(--font-weight-bold);
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 900;
   line-height: 40px;
 }
 
 .nav__list {
   display: flex;
-}
-
-.header--title {
-  padding-left: 16px;
-}
-
-.nav__item {
-  padding: 0 32px;
-}
-
-.link {
-  text-decoration: none;
+  align-items: flex-start;
+  gap: 64px;
 }
 
 .nav--link {
@@ -55,7 +46,7 @@
 
 .btn__group {
   display: flex;
-  gap: 8px;
+  align-items: flex-start;
 }
 
 .btn__login {
