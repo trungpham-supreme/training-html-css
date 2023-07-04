@@ -1,5 +1,4 @@
 .destination {
-  display: flex;
   width: 1184px;
   padding: 64px 0px;
   flex-direction: column;
@@ -7,13 +6,13 @@
   gap: 64px;
 }
 
-.direction__container {
+.destination__container {
   display: flex;
   align-items: center;
   align-self: stretch;
 }
 
-.direction__container--title {
+.destination__container--title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -21,19 +20,36 @@
   flex: 1 0 0;
 }
 
-.direction__container--buttons {
+.destination-btn-group {
   display: flex;
   align-items: flex-start;
   gap: 32px;
 }
 
-.direction-list {
+.btn-left {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  background: var(--color-white);
+  align-items: center;
+}
+
+.btn-right {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: var(--color-purple);
+  align-items: center;
+}
+
+.destination-list {
   display: flex;
   gap: 32px;
   align-items: flex-start;
 }
 
-.direction-item {
+.destination-item {
   display: flex;
   height: 575px;
   flex-direction: column;
@@ -41,13 +57,13 @@
   flex: 1 0 0;
 }
 
-.direction-item__info {
+.destination-item__desc {
   display: flex;
   padding: 32px;
   flex-direction: column;
   gap: 32px;
   border-radius: 0px 0px 32px 32px;
-  background: #fff;
+  background: var(--color-white);
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05),
     0px 32px 71px 0px rgba(0, 0, 0, 0.05),
     0px 128px 128px 0px rgba(0, 0, 0, 0.04),
@@ -56,7 +72,7 @@
     0px 801px 224px 0px rgba(0, 0, 0, 0);
 }
 
-.direction-item__info--content {
+.item-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -67,39 +83,15 @@
 }
 
 .title-price__title {
-  color: #191825;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
+  color: var(--color-black);
 }
 
-.title-price__price {
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-}
-
-.direction-item__location {
+.item-content__location {
   color: rgba(25, 24, 37, 0.75);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
 }
 
-.direction-item__rate {
+.item-content__rate {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.direction-item__rate--point {
-  color: #ff5722;
-  font-size: 23px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
 }
