@@ -25,6 +25,8 @@
   --color-orange: #ff5722;
   --color-back: #191825;
   --color-yellow: #facd49;
+  --color-white: #fff;
+  --color-purple: #5d50c6;
 }
 
 body {
@@ -33,6 +35,14 @@ body {
   font-weight: var(--font-weight-medium);
   line-height: 120%;
   color: rgba(25, 24, 37, 0.5);
+}
+
+h6 {
+  font-size: 23px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .content {
@@ -63,7 +73,7 @@ body {
   justify-content: center;
   border: none;
   border-radius: 100px;
-  font-weight: 700;
+  font-weight: var(--font-weight-medium);
   line-height: 120%;
 }
 

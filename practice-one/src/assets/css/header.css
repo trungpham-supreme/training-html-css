@@ -21,7 +21,7 @@
 
 .header-logo__title {
   color: #191825;
-  font-size: 24px;
+  font-size: var(--font-size-normal);
   font-weight: 900;
   line-height: 40px;
 }
@@ -34,7 +34,6 @@
 
 .nav-item__link {
   font-weight: var(--font-weight-medium);
-  line-height: 120%;
   color: rgba(25, 24, 37, 0.5);
 }
 
