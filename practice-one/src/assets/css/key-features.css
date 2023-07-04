@@ -13,7 +13,7 @@
   gap: 64px;
 }
 
-.key-features-introduce {
+.key-features-desc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -21,7 +21,7 @@
   align-self: stretch;
 }
 
-.key-features-introduce__title {
+.key-features-desc__title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -29,22 +29,14 @@
   align-self: stretch;
 }
 
-.key-features-introduce__paragraph {
-  font-size: 18px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
-}
-
-.key-features__list {
+.key-features-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
 }
 
-.key-features--item {
+.key-features-item {
   display: flex;
   padding: 32px;
   align-items: center;
@@ -52,12 +44,12 @@
   align-self: stretch;
 }
 
-.key-features--item:hover {
+.key-features-item:hover {
   border-radius: 32px;
   border: 1px solid rgba(25, 24, 37, 0.1);
 }
 
-.key-features-icon {
+.key-features-logo {
   display: flex;
   width: 100px;
   height: 100px;
@@ -67,18 +59,18 @@
 }
 
 .location-bg-orange {
-  background: #ff5722;
+  background: var(--color-orange);
 }
 
 .calendar-bg-yellow {
-  background: #facd49;
+  background: var(--color-yellow);
 }
 
 .ticket-bg-pink {
-  background: #f85e9f;
+  background: var(--color-pink);
 }
 
-.key-features-item-description {
+.key-features-item__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -88,7 +80,14 @@
 .key-features-item-description__title {
   color: #191825;
   font-size: 23px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
+}
+
+.key-features-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.key-features-bg {
+  width: 693px;
+  height: 869px;
 }
