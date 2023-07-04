@@ -59,11 +59,13 @@
   border-radius: 32px;
   flex: 1 0 0;
   border: 1px solid rgba(25, 24, 37, 0.1);
-  background: #fff;
+  background: var(--color-white);
 }
 
 .row-item__quantity {
   font-size: 35px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .row-item__paragraph {

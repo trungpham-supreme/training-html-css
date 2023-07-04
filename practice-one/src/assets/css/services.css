@@ -14,23 +14,6 @@
   flex: 1 0 0;
 }
 
-.services__introduce--title {
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  letter-spacing: 4.6px;
-  text-transform: uppercase;
-}
-
-.services__introduce--paragraph {
-  color: #191825;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-}
-
 .cards {
   display: flex;
   width: 1092px;
