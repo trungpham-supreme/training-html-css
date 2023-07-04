@@ -2,8 +2,8 @@
   width: 1312px;
   padding: 64px 0px;
   margin: 0;
+  margin-right: 128px;
   align-items: flex-end;
-  left: -128px;
 }
 
 .travel-point__img {
@@ -70,6 +70,7 @@
 
 .row-item__paragraph {
   color: var(--color-back);
+  white-space: nowrap;
 }
 
 .btn__travel-point {
