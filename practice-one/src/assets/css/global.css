@@ -107,6 +107,13 @@ h6 {
   line-height: 120%;
 }
 
+.text-weight--medium {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--font-weight-medium);
+  line-height: 120%;
+}
+
 .text--pink {
   color: var(--color-pink);
 }
