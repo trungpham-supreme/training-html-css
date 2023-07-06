@@ -69,7 +69,6 @@
 }
 
 .row-item__paragraph {
-  color: var(--color-back);
   white-space: nowrap;
 }
 
