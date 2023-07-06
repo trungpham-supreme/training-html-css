@@ -84,7 +84,9 @@ body {
   border-radius: 100px;
   font-weight: var(--font-weight-medium);
   line-height: 120%;
+  cursor: pointer;
 }
+
 
 .btn--secondary {
   color: #222831;
@@ -117,6 +119,13 @@ body {
   color: var(--color-back);
   font-style: normal;
   font-weight: 700;
+  line-height: 120%;
+}
+
+.text-weight--medium {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--font-weight-medium);
   line-height: 120%;
 }
 

@@ -4,11 +4,13 @@
   align-items: flex-start;
   gap: 64px;
   margin: 0 auto;
+  margin-top: 64px;
 }
 
 .footer__desc {
   align-items: flex-start;
   gap: 64px;
+  flex: 1;
 }
 
 .desc-content {
@@ -25,7 +27,7 @@
 .footer__info {
   align-items: flex-start;
   gap: 32px;
-  flex: 1 0 0;
+  flex: 1;
 }
 
 .footer-paragraph {
@@ -38,6 +40,7 @@
 
 .footer-col {
   gap: 32px;
+  flex: 1;
 }
 
 .footer-ul {
