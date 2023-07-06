@@ -61,7 +61,7 @@
   border: none;
 }
 
-.subscribe-graphic-1 {
+.subscribe-graphic-tl {
   position: absolute;
   width: 183.86px;
   height: 176.35px;
@@ -69,7 +69,7 @@
   top: -70px;
 }
 
-.subscribe-graphic-2 {
+.subscribe-graphic-br {
   width: 112px;
   height: 352px;
   position: absolute;
