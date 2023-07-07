@@ -60,3 +60,7 @@
 .footer-item-title {
   color: var(--color-back);
 }
+
+.meetup-address {
+  gap: 8px;
+}
