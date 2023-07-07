@@ -16,17 +16,18 @@
   --width-max: 1440px;
   --font-size-tiny: 14px;
   --font-size-small: 18px;
-  --font-size-normal: 24px;
+  --font-size-normal: 23px;
   --font-size-large: 44px;
   --font-weight-light: 400;
   --font-weight-medium: 700;
   --font-weight-bold: 900;
   --color-pink: #f85e9f;
   --color-orange: #ff5722;
-  --color-back: #191825;
+  --color-black: #191825;
   --color-yellow: #facd49;
   --color-white: #fff;
   --color-purple: #5d50c6;
+  --color-grey-scale-black: rgba(25, 24, 37, 0.75);
 }
 
 body {
@@ -37,8 +38,16 @@ body {
   color: rgba(25, 24, 37, 0.5);
 }
 
-h6 {
-  font-size: 23px;
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text--normal {
+  font-size: var(--font-size-normal);
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 700;
@@ -75,7 +84,9 @@ h6 {
   border-radius: 100px;
   font-weight: var(--font-weight-medium);
   line-height: 120%;
+  cursor: pointer;
 }
+
 
 .btn--secondary {
   color: #222831;
@@ -97,6 +108,10 @@ h6 {
 }
 .text--small {
   font-size: var(--font-size-small);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
 }
 
 .text--large {
@@ -120,6 +135,14 @@ h6 {
 
 .text--orange {
   color: var(--color-orange);
+}
+
+.text--black {
+  color: var(--color-black);
+}
+
+.text--grey-scale-black{
+  color: var(--color-grey-scale-black);
 }
 
 .paragraph {
@@ -157,4 +180,15 @@ h6 {
   background: #5d50c6;
   align-items: center;
   flex-shrink: 0;
+}
+
+.logo__image {
+  width: 40px;
+  height: 40px;
+}
+
+.logo__title {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px;
 }

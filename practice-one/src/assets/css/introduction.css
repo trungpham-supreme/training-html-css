@@ -43,7 +43,6 @@
 }
 
 .introduction-title {
-  color: var(--color-back);
   font-size: 69px;
   font-weight: var(--font-weight-medium);
   line-height: 120%;
