@@ -2,7 +2,6 @@
   width: 1184px;
   padding: 128px 64px;
   margin-top: 177px;
-  flex-direction: column;
   align-items: flex-start;
   gap: 64px;
   border-radius: 32px;
@@ -10,8 +9,6 @@
 }
 
 .subscribe-desc {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 32px;
   align-self: stretch;
@@ -23,7 +20,6 @@
 }
 
 .subscribe__form {
-  display: flex;
   align-items: flex-start;
   gap: 64px;
   align-self: stretch;
@@ -31,7 +27,6 @@
 
 .email-input {
   width: 100%;
-  display: flex;
   padding: 32px;
   align-items: center;
   gap: 16px;
@@ -73,5 +68,5 @@
   height: 352px;
   position: absolute;
   right: -128px;
-  bottom: -250px;
+  bottom: -220px;
 }

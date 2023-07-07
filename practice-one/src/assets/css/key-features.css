@@ -6,31 +6,23 @@
 }
 
 .key-features__container {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   gap: 64px;
 }
 
 .key-features-desc {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
 
 .key-features-desc__title {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
 }
 
 .key-features-list {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
 }
@@ -41,9 +33,11 @@
   align-items: center;
   gap: 32px;
   align-self: stretch;
+  border: 1px solid transparent;
 }
 
 .key-features-item:hover {
+  box-sizing: border-box;
   border-radius: 32px;
   border: 1px solid rgba(25, 24, 37, 0.1);
 }

@@ -5,8 +5,6 @@
 }
 
 .introduction__desc {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   gap: 43px;
 }
@@ -29,12 +27,7 @@
 .btn__explore:hover {
   border-radius: 100px;
   background: #fff;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07),
-    0px 34px 75px 0px rgba(0, 0, 0, 0.07),
-    0px 137px 137px 0px rgba(0, 0, 0, 0.06),
-    0px 308px 185px 0px rgba(0, 0, 0, 0.04),
-    0px 548px 219px 0px rgba(0, 0, 0, 0.01),
-    0px 856px 240px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07), 0px 34px 75px 0px rgba(0, 0, 0, 0.07), 0px 137px 137px 0px rgba(0, 0, 0, 0.06), 0px 308px 185px 0px rgba(0, 0, 0, 0.04), 0px 548px 219px 0px rgba(0, 0, 0, 0.01), 0px 856px 240px 0px rgba(0, 0, 0, 0);
 }
 
 .explore-icon {
@@ -46,6 +39,7 @@
   font-size: 69px;
   font-weight: var(--font-weight-medium);
   line-height: 120%;
+  font-weight: 700;
 }
 
 .introduction-btn-group {
@@ -56,13 +50,6 @@
   padding: 16px 32px;
 }
 
-.btn-get-started:hover {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
-    0px 5px 11px 0px rgba(0, 0, 0, 0.1), 0px 20px 20px 0px rgba(0, 0, 0, 0.09),
-    0px 45px 27px 0px rgba(0, 0, 0, 0.05), 0px 81px 32px 0px rgba(0, 0, 0, 0.01),
-    0px 126px 35px 0px rgba(0, 0, 0, 0);
-}
-
 .btn-watch-demo {
   padding: 16px 32px;
   align-items: center;
@@ -71,20 +58,12 @@
   background: var(--white, #fff);
 }
 
-.btn-watch-demo:hover {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
-    0px 5px 11px 0px rgba(0, 0, 0, 0.1), 0px 20px 20px 0px rgba(0, 0, 0, 0.09),
-    0px 45px 27px 0px rgba(0, 0, 0, 0.05), 0px 81px 32px 0px rgba(0, 0, 0, 0.01),
-    0px 126px 35px 0px rgba(0, 0, 0, 0);
-}
-
 .map-image {
   width: 772px;
   height: 288px;
 }
 
 .travel-image-collection {
-  display: flex;
   position: absolute;
   top: 75px;
   align-items: center;
@@ -93,9 +72,7 @@
   gap: 31px;
 }
 
-.travel-image-collection__col-1 {
-  display: flex;
-  flex-direction: column;
+.travel-image-collection__col {
   gap: 32px;
 }
 
@@ -122,7 +99,7 @@
 }
 
 .btn-add-contact {
-  right: 250px;
+  right: 235px;
   top: 650px;
   width: 64px;
   height: 64px;
@@ -131,8 +108,8 @@
 }
 
 .btn-send {
-  left: 70px;
-  top: 330px;
+  left: 56px;
+  top: 341px;
   width: 64px;
   height: 64px;
   gap: 8px;
@@ -146,14 +123,12 @@
   gap: 8px;
   width: 166px;
   height: 56px;
-  right: 5px;
-  top: 500px;
+  right: 10px;
+  bottom: 169px;
 }
 
 .btn-icon:hover {
-  box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09),
-    0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01),
-    0px 120px 34px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0);
 }
 
 .sponsor {
@@ -161,7 +136,6 @@
 }
 
 .sponsor__list {
-  display: flex;
   width: 1184px;
   padding: 64px 0px;
   justify-content: space-between;
