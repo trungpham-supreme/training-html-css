@@ -47,6 +47,10 @@
   gap: 32px;
 }
 
+.footer-address {
+  gap: 32px;
+}
+
 .footer-social {
   align-items: flex-start;
   gap: 32px;
