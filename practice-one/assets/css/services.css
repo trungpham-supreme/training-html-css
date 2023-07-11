@@ -1,16 +1,16 @@
 .services {
   width: 1312px;
-  padding: 64px 0px;
   align-items: center;
 }
 
 .services__introduce {
-  min-width: 444px;
+  min-width: 380px;
   align-items: flex-start;
   gap: 16px;
 }
 
 .cards {
+  padding: 64px;
   align-items: flex-start;
   gap: 21px;
   overflow-x: scroll;
@@ -32,7 +32,7 @@
 }
 
 .card:hover {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 41px 89px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 32px 40px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card-desc {
