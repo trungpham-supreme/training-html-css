@@ -22,28 +22,27 @@ practice-one
 
 ~~~
 |-- practice-one
-    |-- src
-        |-- assets
-            |-- css
-                |-- destination.css
-                |-- footer.css
-                |-- global.css
-                |-- header.css
-                |-- index.css
-                |-- introduction.css
-                |-- key-features.css
-                |-- reset.css
-                |-- services.css
-                |-- subscribe.css
-                |-- testimonials.css
-                |-- tralvel-point.css
-            |-- fonts
-            |-- images
-        |-- index.html
-|-- .editorconfig
-|-- .gitignore
-|-- package.json
-|-- README.md
+    |-- assets
+        |-- css
+            |-- destination.css
+            |-- footer.css
+            |-- global.css
+            |-- header.css
+            |-- index.css
+            |-- introduction.css
+            |-- key-features.css
+            |-- reset.css
+            |-- services.css
+            |-- subscribe.css
+            |-- testimonials.css
+            |-- tralvel-point.css
+        |-- fonts
+        |-- images
+    |-- index.html
+    |-- .editorconfig
+    |-- .gitignore
+    |-- package.json
+    |-- README.md
 ~~~
 
 ## Getting started:
