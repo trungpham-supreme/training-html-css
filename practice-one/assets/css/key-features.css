@@ -23,12 +23,12 @@
 }
 
 .key-features-list {
-  align-items: flex-start;
-  align-self: stretch;
+  align-items: stretch;
 }
 
 .key-features-item {
   display: flex;
+  color: rgba(25, 24, 37, 0.5);
   padding: 32px;
   align-items: center;
   gap: 32px;
