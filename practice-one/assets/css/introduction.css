@@ -99,8 +99,8 @@
 }
 
 .btn-add-contact {
-  right: 25%;
-  bottom: 0%;
+  right: 23%;
+  bottom: -1%;
   width: 64px;
   height: 64px;
   gap: 8px;
@@ -108,8 +108,8 @@
 }
 
 .btn-send {
-  left: -5%;
-  top: 40%;
+  left: -6%;
+  top: 42%;
   width: 64px;
   height: 64px;
   gap: 8px;
@@ -123,8 +123,8 @@
   gap: 8px;
   width: 166px;
   height: 56px;
-  right: -15%;
-  bottom: 25%;
+  right: -16%;
+  bottom: 26%;
 }
 
 .btn-icon:hover {
