@@ -24,46 +24,36 @@
 
 .subscribe__form {
   display: flex;
-  align-items: flex-start;
-  gap: 64px;
-  align-self: stretch;
-}
-
-.email-input {
-  display: flex;
-  width: 100%;
-  padding: 32px;
+  position: relative;
   align-items: center;
-  gap: 16px;
-  align-self: stretch;
-  border-radius: 32px;
-  background: var(--color-white);
-  border: none;
 }
 
 .email-icon {
   width: 32px;
   height: 32px;
+  position: absolute;
+  left: 32px;
 }
 
 .btn__subscribe {
   padding: 32px 64px;
   border-radius: 32px;
-  font-size: 23px;
 }
 
 .input-text {
-  width: 100%;
+  width: 757px;
+  height: 96px;
+  border-radius: 32px;
   color: var(--color-back);
-  text-align: start;
-  font-size: 23px;
-  border: none;
+  border: 1px solid transparent;
+  padding-left: 80px;
+  margin-right: 64px;
 }
 
 .subscribe-graphic-tl {
   position: absolute;
-  width: 183.86px;
-  height: 176.35px;
+  width: 184px;
+  height: 177px;
   left: -35px;
   top: -70px;
 }
