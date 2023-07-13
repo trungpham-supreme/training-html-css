@@ -6,24 +6,26 @@
 }
 
 .key-features__container {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 64px;
 }
 
 .key-features-desc {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
 
 .key-features-desc__title {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
-}
-
-.key-features-list {
-  align-items: stretch;
 }
 
 .key-features-item {

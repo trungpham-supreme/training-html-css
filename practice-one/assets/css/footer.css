@@ -1,4 +1,5 @@
 .footer {
+  display: flex;
   width: 1184px;
   padding: 64px 0px;
   align-items: flex-start;
@@ -8,23 +9,23 @@
 }
 
 .footer__desc {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 64px;
   flex: 1;
 }
 
 .desc-content {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
   gap: 32px;
 }
 
-.footer-logo {
-  align-items: center;
-  gap: 16px;
-}
-
 .footer__info {
+  display: flex;
   align-items: flex-start;
   gap: 32px;
   flex: 1;
@@ -38,20 +39,27 @@
   line-height: 160%;
 }
 
-.footer-col {
+.info__container {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
   flex: 1;
 }
 
-.footer-ul {
+.footer__list {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 
 .footer-address {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 
 .footer-social {
+  display: flex;
   align-items: flex-start;
   gap: 32px;
 }
@@ -66,5 +74,7 @@
 }
 
 .meetup-address {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }

@@ -1,4 +1,5 @@
 .subscribe {
+  flex-direction: column;
   width: 1184px;
   padding: 128px 64px;
   margin-top: 177px;
@@ -9,6 +10,8 @@
 }
 
 .subscribe-desc {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 32px;
   align-self: stretch;
@@ -20,12 +23,14 @@
 }
 
 .subscribe__form {
+  display: flex;
   align-items: flex-start;
   gap: 64px;
   align-self: stretch;
 }
 
 .email-input {
+  display: flex;
   width: 100%;
   padding: 32px;
   align-items: center;

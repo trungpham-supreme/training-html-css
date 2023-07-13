@@ -10,13 +10,13 @@
 
   <body>
     <!-- Start Header -->
-    <header class="header d-flex">
-      <a href="#" class="link header-logo d-flex">
+    <header class="header">
+      <a href="#" class="link logo">
         <img src="./assets/images/logo.png" alt="Travlog" class="logo__image" />
         <span class="logo__title text--black">Travlog</span>
       </a>
-      <nav class="header-nav d-flex">
-        <ul class="header-nav__list d-flex">
+      <nav class="header-nav">
+        <ul class="header-nav__list">
           <li class="nav-item">
             <a href="javascript:void(0)" class="nav-item__link text--tiny link">Home</a>
           </li>
@@ -32,7 +32,7 @@
           </li>
         </ul>
       </nav>
-      <div class="btn-group d-flex">
+      <div class="btn-group">
         <button class="btn btn__login btn--secondary text--tiny">Log In</button>
         <button class="btn btn__signup btn--primary text--tiny">Sign Up</button>
       </div>
@@ -40,10 +40,10 @@
     <!-- End header -->
 
     <!-- Start Main -->
-    <main class="content d-flex">
+    <main class="content">
       <!-- Start Introduction section -->
       <section class="section introduction">
-        <div class="introduction__desc d-flex flex-col">
+        <div class="introduction__desc">
           <button class="btn btn__explore">
             <span class="text--tiny text--pink">Explore the world!</span>
             <img src="./assets/images/explore-icon.png" alt="explore"
@@ -51,7 +51,7 @@
           </button>
           <h1 class="introduction-title text--black">Travel <span
               class="text--pink">top destination</span> of the world</h1>
-          <p class="paragraph">
+          <p class="text--small">
             We always make our customer happy by providing<br />
             as many choices as possible
           </p>
@@ -65,10 +65,10 @@
             </button>
           </div>
         </div>
-        <div class="introduction__images">
+        <div class="introduction__image">
           <img src="./assets/images/map.png" alt="map" class="map-image" />
-          <div class="travel-image-collection d-flex">
-            <div class="travel-image-collection__col d-flex flex-col">
+          <div class="image-collection">
+            <div class="image__container">
               <img src="./assets/images/the-alley.png" alt="the alley"
                 class="img-the-alley" />
               <img src="./assets/images/girl-and-mountain.png"
@@ -77,7 +77,7 @@
                 <img src="./assets/images/send-icon.png" alt="send" />
               </button>
             </div>
-            <div class="travel-image-collection__col">
+            <div class="image__container">
               <img src="./assets/images/photographer.png" alt="photographer"
                 class="img-photographer" />
               <button class="btn btn-icon btn-top-places">
@@ -98,7 +98,7 @@
 
       <!-- Start Sponsor section -->
       <section class="section sponsor">
-        <ul class="sponsor__list d-flex">
+        <ul class="sponsor__list">
           <li>
             <a href="javascript:void(0)"><img
                 src="./assets/images/tripadvisor-logo.png"
@@ -127,35 +127,37 @@
 
       <!-- Start Services section -->
       <section class="section services">
-        <div class="services__introduce d-flex flex-col">
+        <div class="services__introduce">
           <h2 class="section__title text--pink">Services</h2>
           <h3 class="text--large text--black">Our top value categories for you</h3>
         </div>
-        <ul class="cards d-flex">
-          <li class="card d-flex flex-col">
+        <ul class="card__list">
+          <li class="card">
             <img src="./assets/images/earth-location.png" alt="earth location"
               class="services-img" />
-            <div class="card-desc d-flex flex-col">
+            <div class="card-desc">
               <h5 class="card-desc__title">Best Tour Guide</h5>
-              <p class="card-desc__paragraph paragraph">What looked like a small
+              <p class="card-desc__paragraph text--small">What looked like a
+                small
                 patch of purple grass, above five feet.</p>
             </div>
           </li>
-          <li class="card d-flex flex-col">
+          <li class="card">
             <img src="./assets/images/calendar.png" alt="calendar"
               class="services-img" />
-            <div class="card-desc d-flex flex-col">
+            <div class="card-desc">
               <h5 class="card-desc__title">Easy Booking</h5>
-              <p class="card-desc__paragraph paragraph">Square, was moving
+              <p class="card-desc__paragraph text--small">Square, was moving
                 across the sand in their direction.</p>
             </div>
           </li>
-          <li class="card d-flex flex-col">
+          <li class="card">
             <img src="./assets/images/cloudy.png" alt="cloudy"
               class="services-img" />
-            <div class="card-desc d-flex flex-col">
+            <div class="card-desc">
               <h5 class="card-desc__title">Weather Forecast</h5>
-              <p class="card-desc__paragraph paragraph">What looked like a small
+              <p class="card-desc__paragraph text--small">What looked like a
+                small
                 patch of purple grass, above five feet.</p>
             </div>
           </li>
@@ -164,13 +166,13 @@
       <!-- End Services section -->
 
       <!-- Start Destination section -->
-      <section class="section destination flex-col">
-        <div class="destination__container d-flex">
-          <div class="destination__desc d-flex flex-col">
+      <section class="section destination">
+        <div class="destination__container">
+          <div class="destination__desc">
             <h2 class="section__title">Top Destination</h2>
             <h3 class="text--large text--black">Explore top destination</h3>
           </div>
-          <div class="destination-btn-group d-flex">
+          <div class="destination-btn-group">
             <button class="btn btn-left">
               <img src="./assets/images/arrow-left-icon.png" alt="left" />
             </button>
@@ -179,60 +181,60 @@
             </button>
           </div>
         </div>
-        <div class="destination__container d-flex">
-          <ul class="destination-list d-flex">
-            <li class="destination-item d-flex flex-col">
+        <div class="destination__container">
+          <ul class="destination-list">
+            <li class="destination-item">
               <img src="./assets/images/beach.png" alt="beach"
                 class="destination-item-img" />
-              <div class="destination-item__desc d-flex flex-col">
-                <div class="item-content d-flex flex-col">
-                  <div class="d-flex">
-                    <h6 class="title-price__title text--normal">Paradise Beach,
+              <div class="destination-item__desc">
+                <div class="item-content">
+                  <div class="item-content__info">
+                    <h6 class="text--normal text--black">Paradise Beach,
                       Bantayan Island</h6>
                     <h6 class="text--normal text--pink">$550.16</h6>
                   </div>
-                  <p class="item-content__location paragraph">Rome, Italy</p>
+                  <p class="item-content__location text--small">Rome, Italy</p>
                 </div>
-                <div class="item-content__rate d-flex">
+                <div class="item-content__rate">
                   <h6 class="text--normal text--orange">4.8</h6>
                   <img src="./assets/images/orange-star-icon.png"
                     alt="orange star" />
                 </div>
               </div>
             </li>
-            <li class="destination-item d-flex flex-col">
+            <li class="destination-item">
               <img src="./assets/images/fish.png" alt="fish"
                 class="destination-item-img" />
-              <div class="destination-item__desc d-flex flex-col">
-                <div class="item-content d-flex flex-col">
-                  <div class="d-flex">
-                    <h6 class="text--normal title-price__title">Ocean with full
+              <div class="destination-item__desc">
+                <div class="item-content">
+                  <div class="item-content__info">
+                    <h6 class="text--normal text--black">Ocean with full
                       of Colors</h6>
                     <h6 class="text--normal text--pink">$20.99</h6>
                   </div>
-                  <p class="item-content__location paragraph">Maldives</p>
+                  <p class="item-content__location text--small">Maldives</p>
                 </div>
-                <div class="item-content__rate d-flex">
+                <div class="item-content__rate">
                   <h6 class="text--normal text--orange">4.5</h6>
                   <img src="./assets/images/orange-star-icon.png"
                     alt="orange star" />
                 </div>
               </div>
             </li>
-            <li class="destination-item d-flex flex-col">
+            <li class="destination-item">
               <img src="./assets/images/mountain.png" alt="mountain"
                 class="destination-item-img" />
-              <div class="destination-item__desc d-flex flex-col">
-                <div class="item-content d-flex flex-col">
-                  <div class="d-flex">
-                    <h6 class="title-price__title text--normal">Mountain View,
+              <div class="destination-item__desc">
+                <div class="item-content">
+                  <div class="item-content__info">
+                    <h6 class="text--normal text--black">Mountain View,
                       Above the cloud</h6>
                     <h6 class="text--normal text--pink">$150.99</h6>
                   </div>
-                  <p class="item-content__location paragraph">United Arab
+                  <p class="item-content__location text--small">United Arab
                     Emeries</p>
                 </div>
-                <div class="item-content__rate d-flex">
+                <div class="item-content__rate">
                   <h6 class="text--normal text--orange">5.0</h6>
                   <img src="./assets/images/orange-star-icon.png"
                     alt="orange star" />
@@ -248,39 +250,40 @@
       <section class="section travel-point">
         <img src="./assets/images/travel-point-bg.png" alt="travel point"
           class="travel-point__img" />
-        <div class="travel-point__container d-flex flex-col">
-          <div class="travel-point-desc d-flex flex-col">
-            <div class="travel-point-desc__title d-flex flex-col">
+        <div class="travel-point__container">
+          <div class="travel-point-desc">
+            <div class="travel-point-desc__title">
               <h2 class="section__title">Travel Point</h2>
               <h3 class="text--large text--black">We helping you find your dream
                 location</h3>
             </div>
-            <p class="paragraph">Contrary to popular belief, Lorem Ipsum is not
+            <p class="text--small">Contrary to popular belief, Lorem Ipsum is
+              not
               simply random text. It has roots in a piece of classical Latin
               literature from 45 BC.</p>
           </div>
-          <div class="travel-point-list d-flex flex-col">
-            <div class="travel-point-list__row d-flex">
+          <div class="travel-point-list">
+            <div class="travel-point-list__row">
               <div class="row-item">
                 <h4 class="row-item__quantity text--orange">500+</h4>
-                <p class="row-item__paragraph paragraph text--black">Holiday
+                <p class="row-item__paragraph text--small text--black">Holiday
                   Package</p>
               </div>
               <div class="row-item">
                 <h4 class="row-item__quantity text--orange">100</h4>
-                <p class="row-item__paragraph paragraph text--black">Luxury
+                <p class="row-item__paragraph text--small text--black">Luxury
                   Hotel</p>
               </div>
             </div>
-            <div class="travel-point-list__row d-flex">
+            <div class="travel-point-list__row">
               <div class="row-item">
                 <h4 class="row-item__quantity text--orange">7</h4>
-                <p class="row-item__paragraph paragraph text--black">Premium
+                <p class="row-item__paragraph text--small text--black">Premium
                   Airlines</p>
               </div>
               <div class="row-item">
                 <h4 class="row-item__quantity text--orange">2k+</h4>
-                <p class="row-item__paragraph paragraph text--black">Happy
+                <p class="row-item__paragraph text--small text--black">Happy
                   Customer</p>
               </div>
             </div>
@@ -293,17 +296,18 @@
 
       <!-- Start Key-features section -->
       <section class="section key-features">
-        <div class="key-features__container d-flex flex-col">
-          <div class="key-features-desc d-flex flex-col">
-            <div class="key-features-desc__title d-flex flex-col">
+        <div class="key-features__container">
+          <div class="key-features-desc">
+            <div class="key-features-desc__title">
               <h2 class="section__title">Key features</h2>
               <h3 class="text--large text--black">We offer best services</h3>
             </div>
-            <p class="paragraph">Contrary to popular belief, Lorem Ipsum is not
+            <p class="text--small">Contrary to popular belief, Lorem Ipsum is
+              not
               simply random text. It has roots in a piece of classical Latin
               literature from 45 BC.</p>
           </div>
-          <ul class="key-features-list d-flex flex-col">
+          <ul class="key-features-list">
             <li>
               <a href="javascript:void(0)" class="key-features-item link">
                 <div class="key-features-logo location-bg-orange">
@@ -313,7 +317,7 @@
                 <div class="key-features-item__content">
                   <h6 class="key-features-item-title text--normal">We offer best
                     services</h6>
-                  <p class="paragraph">Lorem Ipsum is not simply random text</p>
+                  <p class="text--small">Lorem Ipsum is not simply random text</p>
                 </div>
               </a>
             </li>
@@ -326,7 +330,7 @@
                 <div class="key-features-item__content">
                   <h6 class="key-features-item-title text--normal">Schedule your
                     trip</h6>
-                  <p class="paragraph">It has roots in a piece of classical</p>
+                  <p class="text--small">It has roots in a piece of classical</p>
                 </div>
               </a>
             </li>
@@ -340,7 +344,7 @@
                   <h6 class="key-features-item-title text--normal">Get
                     discounted
                     coupons</h6>
-                  <p class="paragraph">Lorem Ipsum is not simply random text</p>
+                  <p class="text--small">Lorem Ipsum is not simply random text</p>
                 </div>
               </a>
             </li>
@@ -353,7 +357,7 @@
 
       <!-- Start Testimonials section -->
       <section class="section testimonials">
-        <div class="container d-flex">
+        <div class="testimonials__container">
           <button class="btn btn-left">
             <img src="./assets/images/arrow-left-icon.png" alt="button left" />
           </button>
@@ -364,11 +368,11 @@
             </div>
             <img src="./assets/images/ellipse.png" alt="testimonials"
               class="testimonial-ellipse-img" />
-            <div class="testimonials-rate d-flex flex-col">
+            <div class="testimonials-rate">
               <p class="testimonials-rate__paragraph"><span
                   class="testimonials-text--highlight text--orange">Mark Smith
                 </span>/ Travel Enthusiast</p>
-              <div class="star-grp d-flex">
+              <div class="star-grp">
                 <img src="./assets/images/yellow-little-star.png"
                   alt="yellow little star" class="yellow-star-icon" />
                 <img src="./assets/images/yellow-little-star.png"
@@ -384,7 +388,7 @@
             <p class="testimonials-paragraph">Contrary to popular belief, Lorem
               Ipsum is not simply random text. It has roots in a piece of
               classical Latin literature from 45 BC.</p>
-            <div class="testimonials-btn-group d-flex">
+            <div class="testimonials-btn-group">
               <button class="btn testimonials-btn btn--grey"></button>
               <button class="btn testimonials-btn btn--pink"></button>
               <button class="btn testimonials-btn btn--grey"></button>
@@ -398,16 +402,16 @@
       <!-- End Testimonials section -->
 
       <!-- Start Subscribe section -->
-      <section class="section subscribe flex-col">
+      <section class="section subscribe">
         <img src="./assets/images/subscribe-graphic.png" alt="subscribe graphic"
           class="subscribe-graphic-tl" />
-        <div class="subscribe-desc d-flex flex-col">
+        <div class="subscribe-desc">
           <p class="section__title">subscribe to our newsletter</p>
           <h2 class="subscribe-desc__title text-weight--medium text--black">Prepare
             yourself & let’s explore the beauty of the world</h2>
         </div>
-        <form class="subscribe__form d-flex">
-          <div class="email-input d-flex">
+        <form class="subscribe__form">
+          <div class="email-input">
             <img src="./assets/images/mail-icon.png" alt="Email"
               class="email-icon" />
             <input type="email" class="input-text text--normal"
@@ -424,10 +428,10 @@
     <!-- End Main -->
 
     <!-- Start Footer -->
-    <footer class="footer d-flex">
-      <div class="footer__desc d-flex flex-col">
-        <div class="desc-content d-flex flex-col">
-          <a href="#" class="footer-logo d-flex link">
+    <footer class="footer">
+      <div class="footer__desc">
+        <div class="desc-content">
+          <a href="#" class="logo link">
             <img src="./assets/images/logo.png" alt="travlog"
               class="logo__image" />
             <span class="logo__title text--black">Travlog</span>
@@ -436,7 +440,7 @@
             not simply random text. It has roots in a piece of classical Latin
             literature from 45 BC.</p>
         </div>
-        <ul class="footer-social d-flex">
+        <ul class="footer-social">
           <li>
             <a href="https://www.facebook.com/" class="social-logo"><img
                 src="./assets/images/fb-logo.png" alt="Facebook" /></a>
@@ -452,10 +456,10 @@
           </li>
         </ul>
       </div>
-      <div class="footer__info d-flex">
-        <div class="footer-col d-flex flex-col">
+      <div class="footer__info">
+        <div class="info__container">
           <h6 class="text--normal text--black">Company</h6>
-          <ul class="footer-ul d-flex flex-col">
+          <ul class="footer__list">
             <li>
               <a href="javascript:void(0)"
                 class="link text--small text--grey-scale-black">About</a>
@@ -470,9 +474,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-col d-flex flex-col">
+        <div class="info__container">
           <h6 class="text--normal text--black">Contact</h6>
-          <ul class="footer-ul d-flex flex-col">
+          <ul class="footer__list">
             <li>
               <a href="javascript:void(0)"
                 class="link text--small text--grey-scale-black">Why Travlog?</a>
@@ -491,15 +495,15 @@
             </li>
           </ul>
         </div>
-        <div class="footer-col d-flex flex-col">
+        <div class="info__container">
           <h6 class="text--normal text--black">Meet Us</h6>
-          <address class="footer-address d-flex flex-col">
+          <address class="footer-address">
             <a href="tel:+0092123456789"
               class="link text--small text--grey-scale-black">+00 92 1234 56789</a>
             <a href="mailto:info@travlog.com"
               class="link text--small text--grey-scale-black">info@travlog.com</a>
             <a href="javascript:void(0)"
-              class="link text--small text--grey-scale-black d-flex flex-col meetup-address">
+              class="link text--small text--grey-scale-black meetup-address">
               <p>205. R Street, New York</p>
               <p>BD23200</p>
             </a>

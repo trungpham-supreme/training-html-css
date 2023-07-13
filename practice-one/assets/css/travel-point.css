@@ -1,4 +1,5 @@
 .travel-point {
+  display: flex;
   width: 1312px;
   padding: 64px 0px;
   margin: 0;
@@ -12,30 +13,38 @@
 }
 
 .travel-point__container {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 64px;
-  flex: 1 0 0;
 }
 
 .travel-point-desc {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
 
 .travel-point-desc__title {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
 }
 
 .travel-point-list {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
 
 .travel-point-list__row {
+  display: flex;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;

@@ -1,15 +1,18 @@
 .introduction {
+  display: flex;
   width: 1184px;
   padding: 64px 0px;
   align-items: center;
 }
 
 .introduction__desc {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 43px;
 }
 
-.introduction__images {
+.introduction__image {
   width: 772px;
   height: 713px;
   flex-direction: row;
@@ -55,7 +58,6 @@
   align-items: center;
   gap: 8px;
   border: 1px solid var(--light, #eee);
-  background: var(--white, #fff);
 }
 
 .map-image {
@@ -63,7 +65,8 @@
   height: 288px;
 }
 
-.travel-image-collection {
+.image-collection {
+  display: flex;
   position: absolute;
   top: 75px;
   align-items: center;
@@ -72,7 +75,9 @@
   gap: 31px;
 }
 
-.travel-image-collection__col {
+.image__container {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 
@@ -136,6 +141,7 @@
 }
 
 .sponsor__list {
+  display: flex;
   width: 1184px;
   padding: 64px 0px;
   justify-content: space-between;
