@@ -1,8 +1,15 @@
 .testimonials {
-  width: 1184px;
-  align-items: center;
+  width: 1440px;
   gap: 56px;
+  margin: 0;
   margin-top: 12px;
+  background-image: url(../images/background.png);
+  background-size: 100% 100%;
+}
+
+.testimonials > .container {
+  align-items: center;
+  margin: 0 128px;
 }
 
 .testimonials-content {
@@ -73,15 +80,6 @@
 
 .btn--pink {
   background: var(--color-pink);
-}
-
-.testimonial__bg {
-  position: absolute;
-  width: 1440px;
-  left: -128px;
-  padding: 0;
-  opacity: 0.10000000149011612;
-  z-index: -1;
 }
 
 .testimonial-ellipse-img {
