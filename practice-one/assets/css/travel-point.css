@@ -1,5 +1,7 @@
 .travel-point {
   display: flex;
+  position: relative;
+  margin: 0 auto;
   width: 1312px;
   padding: 64px 0px;
   margin: 0;

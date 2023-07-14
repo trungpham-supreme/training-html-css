@@ -64,12 +64,6 @@ body {
   padding: 0px 128px;
 }
 
-.section {
-  display: flex;
-  position: relative;
-  margin: 0 auto;
-}
-
 .btn-group {
   display: flex;
   justify-content: center;

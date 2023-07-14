@@ -1,4 +1,7 @@
 .subscribe {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
   flex-direction: column;
   width: 1184px;
   padding: 128px 64px;
