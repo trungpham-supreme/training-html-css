@@ -1,12 +1,8 @@
 .destination {
-  display: flex;
-  flex-direction: column;
   position: relative;
   margin: 0 auto;
   width: 1184px;
   padding: 64px 0px;
-  align-items: flex-start;
-  gap: 64px;
 }
 
 .destination__container {

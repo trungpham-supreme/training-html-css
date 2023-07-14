@@ -1,13 +1,9 @@
 .subscribe {
-  display: flex;
   position: relative;
   margin: 0 auto;
-  flex-direction: column;
   width: 1184px;
   padding: 128px 64px;
   margin-top: 177px;
-  align-items: flex-start;
-  gap: 64px;
   border-radius: 32px;
   background: rgba(250, 205, 73, 0.08);
 }

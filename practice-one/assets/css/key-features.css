@@ -8,13 +8,6 @@
   gap: 70px;
 }
 
-.key-features__container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 64px;
-}
-
 .key-features-desc {
   display: flex;
   flex-direction: column;

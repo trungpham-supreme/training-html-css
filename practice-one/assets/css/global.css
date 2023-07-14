@@ -192,9 +192,16 @@ body {
   line-height: 40px;
 }
 
-.title__container{
+.title__container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+}
+
+.content__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
 }
