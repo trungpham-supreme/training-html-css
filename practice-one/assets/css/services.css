@@ -7,11 +7,7 @@
 }
 
 .services__introduce {
-  display: flex;
-  flex-direction: column;
   min-width: 380px;
-  align-items: flex-start;
-  gap: 16px;
 }
 
 .card__list {
