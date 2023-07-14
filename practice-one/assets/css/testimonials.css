@@ -1,4 +1,6 @@
 .testimonials {
+  display: flex;
+  position: relative;
   width: 1440px;
   gap: 56px;
   margin: 0;

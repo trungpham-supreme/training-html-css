@@ -1,4 +1,4 @@
-.header {
+.header__container {
   display: flex;
   width: var(--width-max);
   width: 1184px;
