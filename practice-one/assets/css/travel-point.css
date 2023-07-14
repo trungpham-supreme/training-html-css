@@ -29,14 +29,6 @@
   align-self: stretch;
 }
 
-.travel-point-desc__title {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  align-self: stretch;
-}
-
 .travel-point-list {
   display: flex;
   flex-direction: column;

@@ -23,14 +23,6 @@
   align-self: stretch;
 }
 
-.key-features-desc__title {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  align-self: stretch;
-}
-
 .key-features-item {
   display: flex;
   color: rgba(25, 24, 37, 0.5);
