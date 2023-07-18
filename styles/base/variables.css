@@ -1,0 +1,17 @@
+:root {
+  --width-max: 1440px;
+  --font-size-tiny: 14px;
+  --font-size-small: 18px;
+  --font-size-normal: 23px;
+  --font-size-large: 44px;
+  --font-weight-light: 400;
+  --font-weight-medium: 700;
+  --font-weight-bold: 900;
+  --color-pink: #f85e9f;
+  --color-orange: #ff5722;
+  --color-black: #191825;
+  --color-yellow: #facd49;
+  --color-white: #fff;
+  --color-purple: #5d50c6;
+  --color-grey-scale-black: rgba(25, 24, 37, 0.75);
+}
