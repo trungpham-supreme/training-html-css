@@ -1,12 +1,18 @@
 :root {
   --width-max: 1440px;
-  --font-size-tiny: 14px;
-  --font-size-small: 18px;
-  --font-size-normal: 23px;
-  --font-size-large: 44px;
-  --font-weight-light: 400;
-  --font-weight-medium: 700;
-  --font-weight-bold: 900;
+
+  /* Font size */
+  --fs-tiny: 14px;
+  --fs-small: 18px;
+  --fs-normal: 23px;
+  --fs-large: 44px;
+
+  /* Font weight */
+  --fw-light: 400;
+  --fw-medium: 700;
+  --fw-bold: 900;
+
+  /* Color */
   --color-pink: #f85e9f;
   --color-orange: #ff5722;
   --color-black: #191825;
@@ -14,4 +20,10 @@
   --color-white: #fff;
   --color-purple: #5d50c6;
   --color-grey-scale-black: rgba(25, 24, 37, 0.75);
+
+   /* Line height */
+   --lh-sm: 80%;
+   --lh-md: 100%;
+   --lh-lg: 120%;
+   --lh--xl: 160%;
 }

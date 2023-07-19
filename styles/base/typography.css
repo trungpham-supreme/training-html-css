@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Circular Std";
+  src: url("../../assets/fonts/circular-std-medium-500.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+}
+
+.text--tiny {
+  font-size: var(--fs-tiny);
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+}
+
+.text--small {
+  font-size: var(--fs-small);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: var(--fw-light);
+  line-height: var(--lh-xl);
+}
+
+.text--large {
+  font-size: var(--fs-large);
+  color: var(--color-back);
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+}
+
+.text-weight--medium {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+}
+
+.text--pink {
+  color: var(--color-pink);
+}
+
+.text--orange {
+  color: var(--color-orange);
+}
+
+.text--black {
+  color: var(--color-black);
+}
+
+.text--grey-scale-black {
+  color: var(--color-grey-scale-black);
+}

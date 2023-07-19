@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+  color: var(--color-grey-scale-black);
+  padding: 0px 16px;
+  overflow: hidden
+}
+
 a{
   text-decoration: none;
 }
