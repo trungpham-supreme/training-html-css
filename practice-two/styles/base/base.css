@@ -2,22 +2,21 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Circular Std";
   font-style: normal;
   font-weight: var(--fw-medium);
   line-height: var(--lh-lg);
   color: var(--color-grey-scale-black);
   padding: 0px 16px;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
-
