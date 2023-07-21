@@ -31,11 +31,19 @@
   background-color: white;
 }
 
-/* .btn-icon {
-  position: absolute;
-  z-index: 1;
+.btn-left {
+  width: 64px;
+  height: 64px;
   border-radius: 100px;
-} */
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  background: var(--color-white);
+  align-items: center;
+}
 
-
-
+.btn-right {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  background: var(--color-purple);
+  align-items: center;
+}
