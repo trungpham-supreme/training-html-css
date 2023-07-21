@@ -54,3 +54,14 @@
 .text--grey-scale-black {
   color: var(--color-grey-scale-black);
 }
+
+.section__title {
+  font-size: 16px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: var(--color-pink);
+}
