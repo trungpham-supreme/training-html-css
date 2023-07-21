@@ -1,0 +1,37 @@
+.sponsor {
+  padding: 32px 0;
+  justify-content: center;
+}
+
+.sponsor__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  row-gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor__list > li > a {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor__img {
+  width: 63%;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .sponsor__img {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .sponsor__list {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

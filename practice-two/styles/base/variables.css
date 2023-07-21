@@ -1,5 +1,5 @@
 :root {
-  --width-max: 1440px;
+  --width-max: 1184px;
 
   /* Font size */
   --fs-tiny: 14px;
@@ -25,5 +25,5 @@
    --lh-sm: 80%;
    --lh-md: 100%;
    --lh-lg: 120%;
-   --lh--xl: 160%;
+   --lh-xl: 160%;
 }
