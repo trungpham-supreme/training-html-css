@@ -4,7 +4,12 @@
   align-items: center;
 }
 
-.navbar__list {
+.nav__list {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+}
+
+.nav__link {
+  color: var(--color-grey-scale-black);
+  font-size: var(--fs-tiny);
 }

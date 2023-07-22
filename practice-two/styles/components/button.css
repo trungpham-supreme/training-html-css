@@ -6,11 +6,13 @@
 
 .btn {
   display: flex;
+  font-family: "Circular Std";
   justify-content: center;
   align-items: center;
   border: none;
   border-radius: 100px;
-  font-weight: var(--font-weight-medium);
+  font-size: var(--fs-tiny);
+  font-weight: var(--fw-medium);
   line-height: var(--lh-lg);
   cursor: pointer;
 }
