@@ -7,13 +7,20 @@ body {
   font-style: normal;
   font-weight: var(--fw-medium);
   line-height: var(--lh-lg);
-  color: var(--color-grey-scale-black);
+  color: var(--color-black);
   padding: 0px 16px;
   overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+  color: var(--color-black);
+}
+
+p{
+  font-family: "Inter";
+  font-style: normal;
+  color: var(--color-grey-scale-black);
 }
 
 img {

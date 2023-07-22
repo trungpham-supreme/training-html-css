@@ -4,8 +4,14 @@
   /* Font size */
   --fs-tiny: 14px;
   --fs-small: 18px;
-  --fs-normal: 23px;
+  --fs-normal: 24px;
   --fs-large: 32px;
+  --fs-h1: 40px;
+  --fs-h2: 16px;
+  --fs-h3: 32px;
+  --fs-h4: 28px;
+  --fs-h5: 24px;
+  --fs-h6: 23px;
 
   /* Font weight */
   --fw-light: 400;
