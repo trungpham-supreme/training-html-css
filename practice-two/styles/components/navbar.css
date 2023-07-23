@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__link {
+  color: var(--color-grey-scale-black);
+  font-size: var(--fs-xs);
+}

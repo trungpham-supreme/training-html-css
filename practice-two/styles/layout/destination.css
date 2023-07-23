@@ -1,0 +1,113 @@
+/* Mobile */
+.destination {
+  padding: 32px 0px;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.destination__container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.destination .btn__group {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.destination__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.destination__item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+.item__container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 32px;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 0px 0px 32px 32px;
+  background: var(--color-white);
+  border: transparent;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 0px 32px 71px 0px rgba(0, 0, 0, 0.05), 0px 128px 128px 0px rgba(0, 0, 0, 0.04), 0px 288px 173px 0px rgba(0, 0, 0, 0.03), 0px 513px 205px 0px rgba(0, 0, 0, 0.01), 0px 801px 224px 0px rgba(0, 0, 0, 0);
+}
+
+.item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: inherit;
+  justify-content: space-between;
+}
+
+.item-content__rate {
+  font-size: var(--fs-h6);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item-content__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  font-size: var(--fs-h6);
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .destination {
+    gap: 64px;
+  }
+
+  .destination__list {
+    flex-direction: row;
+  }
+
+  .destination__item {
+    flex: 1 0 0;
+  }
+
+  .destination .btn__group {
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .btn-left,
+  .btn-right {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .destination__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .destination__container .title__container {
+    align-items: start;
+  }
+
+  .item-content__info {
+    flex-direction: row-reverse;
+  }
+}
