@@ -11,5 +11,5 @@
 
 .nav__link {
   color: var(--color-grey-scale-black);
-  font-size: var(--fs-tiny);
+  font-size: var(--fs-xs);
 }
