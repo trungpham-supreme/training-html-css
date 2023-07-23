@@ -17,13 +17,38 @@ a {
   color: var(--color-black);
 }
 
-p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+}
+
+p {
   font-family: "Inter";
   font-style: normal;
   color: var(--color-grey-scale-black);
+  font-size: var(--fs-s);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-xl);
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 768px){
+ body{
+  padding: 0px 64px;
+ }
+
+ p{
+  font-size: var(--fs-m);
+ }
 }

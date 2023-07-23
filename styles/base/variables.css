@@ -2,10 +2,12 @@
   --width-max: 1184px;
 
   /* Font size */
-  --fs-tiny: 14px;
-  --fs-small: 18px;
-  --fs-normal: 24px;
-  --fs-large: 32px;
+  --fs-xxs: 7px;
+  --fs-xs: 14px;
+  --fs-s: 16px;
+  --fs-m: 18px;
+  --fs-l: 24px;
+  --fs-xl: 32px;
   --fs-h1: 40px;
   --fs-h2: 16px;
   --fs-h3: 32px;
@@ -27,9 +29,29 @@
   --color-purple: #5d50c6;
   --color-grey-scale-black: rgba(25, 24, 37, 0.75);
 
-   /* Line height */
-   --lh-sm: 80%;
-   --lh-md: 100%;
-   --lh-lg: 120%;
-   --lh-xl: 160%;
+  /* Line height */
+  --lh-sm: 80%;
+  --lh-md: 100%;
+  --lh-lg: 120%;
+  --lh-xl: 160%;
+}
+
+@media screen and (min-width: 768px){
+  :root {
+    --fs-h1: 56px;
+    --fs-h2: 23px;
+    --fs-h3: 40px;
+    --fs-h4: 32px;
+    --fs-h5: 28px;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  :root {
+    --fs-h1: 69px;
+    --fs-h2: 23px;
+    --fs-h3: 44px;
+    --fs-h4: 32px;
+    --fs-h5: 28px;
+  }
 }

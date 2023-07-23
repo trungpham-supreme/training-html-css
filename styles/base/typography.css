@@ -8,45 +8,6 @@
   src: url("../../assets/fonts/Inter/static/Inter-Medium.ttf") format("truetype");
 }
 
-.text--tiny {
-  font-size: var(--fs-tiny);
-  font-family: "Circular Std";
-  font-style: normal;
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-lg);
-}
-
-.text--small {
-  font-size: var(--fs-small);
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: var(--fw-light);
-  line-height: var(--lh-xl);
-}
-
-.text--normal {
-  font-size: var(--fs-normal);
-  font-family: "Circular Std";
-  font-style: normal;
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-lg);
-}
-
-.text--large {
-  font-size: var(--fs-large);
-  color: var(--color-back);
-  font-style: normal;
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-lg);
-}
-
-.text-weight--medium {
-  font-family: "Circular Std";
-  font-style: normal;
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-lg);
-}
-
 .text--pink {
   color: var(--color-pink);
 }
@@ -55,21 +16,21 @@
   color: var(--color-orange);
 }
 
-.text--black {
-  color: var(--color-black);
-}
-
-.text--grey-scale-black {
-  color: var(--color-grey-scale-black);
-}
-
 .section__title {
-  font-size: 16px;
-  font-family: "Circular Std";
-  font-style: normal;
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-lg);
+  font-size: var(--fs-h2);
   letter-spacing: 3.2px;
   text-transform: uppercase;
   color: var(--color-pink);
+}
+
+.section__desc {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
+}
+
+@media screen and (min-width: 768px) {
+  .section__title {
+    letter-spacing: 4.6px;
+  }
 }
