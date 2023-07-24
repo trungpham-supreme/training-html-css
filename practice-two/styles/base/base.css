@@ -52,3 +52,9 @@ img {
     font-size: var(--fs-m);
   }
 }
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding: 0 0;
+  }
+}
