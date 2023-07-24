@@ -97,7 +97,11 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
+  .destination {
+    padding: 64px 0;
+  }
+
   .destination__container {
     flex-direction: row;
     justify-content: space-between;

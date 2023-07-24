@@ -210,7 +210,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
   .introduction {
     flex-direction: row-reverse;
     padding: 64px 0;

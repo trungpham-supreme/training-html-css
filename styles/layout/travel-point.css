@@ -1,0 +1,96 @@
+/* Mobile first */
+.travel-point {
+  position: relative;
+  flex-direction: column;
+  gap: 64px;
+  padding: 32px 0px;
+}
+
+.ticket__img {
+  display: none;
+}
+
+.travel-point__content,
+.travel-point__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+}
+
+.travel-point__list,
+.list__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.list__container .item__content {
+  display: flex;
+  align-self: stretch;
+  padding: 30px;
+  border-radius: 32px;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  background: var(--color-white);
+  flex: 1 0 0;
+}
+
+.item__number {
+  font-size: var(--fs-h4);
+  color: var(--color-orange);
+}
+
+.item__desc {
+  font-size: var(--fs-m);
+  color: var(--color-black);
+  white-space: nowrap;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .travel-point__list {
+    gap: 32px;
+  }
+
+  .list__container {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+  .travel-point {
+    flex-direction: row;
+    gap: 0;
+    padding: 64px 0;
+    align-items: flex-end;
+  }
+
+  .travel-point__content {
+    max-width: 440px;
+    gap: 64px;
+  }
+
+  .travel-point__img {
+    display: flex;
+    position: relative;
+    left: -10%;
+  }
+
+  .travel-point__desc,
+  .title__container {
+    text-align: start;
+    align-items: start;
+  }
+
+  .ticket__img {
+    display: flex;
+    position: absolute;
+    right: -14%;
+    top: 30%;
+  }
+}
