@@ -51,6 +51,10 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .travel-point {
+    padding: 64px 0;
+  }
+
   .travel-point__list {
     gap: 32px;
   }
@@ -64,21 +68,16 @@
 /* Desktop */
 @media screen and (min-width: 1200px) {
   .travel-point {
+    grid-column: 1 / span 2;
     flex-direction: row;
+    justify-content: end;
+    align-items: center;
     gap: 0;
-    padding: 64px 0;
-    align-items: flex-end;
   }
 
   .travel-point__content {
     max-width: 440px;
     gap: 64px;
-  }
-
-  .travel-point__img {
-    display: flex;
-    position: relative;
-    left: -10%;
   }
 
   .travel-point__desc,
@@ -90,7 +89,7 @@
   .ticket__img {
     display: flex;
     position: absolute;
-    right: -14%;
-    top: 30%;
+    right: -10%;
+    top: 33%;
   }
 }
