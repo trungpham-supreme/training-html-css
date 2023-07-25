@@ -1,6 +1,5 @@
 .container{
   width: 100%;
-  max-width: var(--width-max);
   display: flex;
   margin: 0 auto;
 }
@@ -11,4 +10,10 @@
   align-items: center;
   gap: 16px;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+      grid-column: 2;
+  }
 }
