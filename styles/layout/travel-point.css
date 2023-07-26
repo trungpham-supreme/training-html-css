@@ -89,7 +89,8 @@
   .ticket__img {
     display: flex;
     position: absolute;
-    right: -10%;
-    top: 33%;
+    right: 0;
+    top: 47.5%;
+    z-index: -1;
   }
 }

@@ -4,6 +4,7 @@
   padding: 64px 32px;
   background: rgba(250, 205, 73, 0.08);
   gap: 64px;
+  border-radius: 32px;  
 }
 
 .subscribe .title__container {
@@ -51,10 +52,12 @@
 .subscribe-graphic-tl,
 .subscribe-graphic-br {
   display: none;
+  position: absolute;
+  z-index: -1;
 }
 
 @media screen and (min-width: 768px) {
-  .email__icon{
+  .email__icon {
     top: 30%;
   }
 
@@ -72,7 +75,6 @@
   .subscribe-graphic-tl,
   .subscribe-graphic-br {
     display: block;
-    position: absolute;
   }
 
   .subscribe-graphic-tl {
@@ -81,12 +83,32 @@
   }
 
   .subscribe-graphic-br {
-    bottom: -50%;
-    right: -5%;
+    bottom: -4%;
+    right: -64px;
   }
 
   .input__text,
   .btn__subscribe {
     font-size: var(--fs-h6);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe .title__container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .subscribe{
+    margin-top: 133px;
+  }
+
+  .subscribe-graphic-br {
+    bottom: -3%;
+    right: 0;
+  }
+
+  .subscribe__desc {
+    font-size: 55px;
   }
 }
