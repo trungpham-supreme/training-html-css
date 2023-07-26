@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 32px;
 }
 
 .introduction__image {
@@ -25,14 +24,14 @@
   position: relative;
   align-items: center;
   justify-self: center;
-  gap: 1rem;
-  padding: 3rem;
+  gap: 16px;
+  padding: 38px 50px 32px 50px;
 }
 
 .image__container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .introduction__content {
@@ -95,13 +94,15 @@
   margin-bottom: 16px;
 }
 
+.explore-icon {
+  padding: 2px;
+}
+
 .introduction__title {
   text-align: center;
   font-size: var(--fs-h1);
-  font-weight: var(--font-weight-medium);
-  line-height: var(--lh-lg);
-  font-weight: var(--fw-medium);
   margin-bottom: 24px;
+  padding: 0 24px;
 }
 
 .introduction__title--highlight {
@@ -147,13 +148,19 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .introduction {
+    padding: 64px 0;
+    margin-bottom: 32px;
+  }
+
   .image-collection {
     padding-top: 75px;
+    padding-bottom: 64px;
   }
 
   .image__container,
   .image-collection {
-    gap: 2rem;
+    gap: 32px;
   }
 
   .btn__explore {
@@ -163,6 +170,7 @@
   .introduction__title {
     max-width: 600px;
     margin-bottom: 43px;
+    padding: 0;
   }
 
   .introduction__desc {
@@ -213,7 +221,8 @@
 @media screen and (min-width: 1200px) {
   .introduction {
     flex-direction: row-reverse;
-    padding: 64px 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .introduction__content {
