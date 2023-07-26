@@ -139,6 +139,10 @@
   background: var(--color-white);
 }
 
+.play__icon{
+  padding: 2px;
+}
+
 .introduction__btn-group {
   flex-direction: column;
   align-items: flex-start;
