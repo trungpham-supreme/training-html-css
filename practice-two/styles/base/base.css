@@ -74,6 +74,10 @@ img {
       display: grid;
       grid-template-columns: 1fr 1184px 1fr;
   }
+
+  .info__container{
+    flex: 1;
+  }
 }
 
 

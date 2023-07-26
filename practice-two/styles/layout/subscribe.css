@@ -1,0 +1,92 @@
+.subscribe {
+  position: relative;
+  flex-direction: column;
+  padding: 64px 32px;
+  background: rgba(250, 205, 73, 0.08);
+  gap: 64px;
+}
+
+.subscribe .title__container {
+  gap: 32px;
+}
+
+.subscribe__form {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  align-items: stretch;
+  gap: 32px;
+}
+
+.input__text {
+  height: inherit;
+  width: 100%;
+  padding: 24px 70px;
+  border: 1px solid transparent;
+  border-radius: 32px;
+  font-size: var(--fs-xs);
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: rgba(25, 24, 37, 0.75);
+}
+
+.email__icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 32px;
+  top: 9%;
+}
+
+.btn__subscribe {
+  width: 100%;
+  padding: 32px 64px;
+  border-radius: 32px;
+  font-size: 16px;
+}
+
+.subscribe-graphic-tl,
+.subscribe-graphic-br {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .email__icon{
+    top: 30%;
+  }
+
+  .subscribe {
+    padding: 128px 64px;
+    margin-top: 109px;
+    margin-bottom: 64px;
+  }
+
+  .subscribe__form {
+    grid-template-columns: auto min-content;
+    grid-template-rows: auto;
+  }
+
+  .subscribe-graphic-tl,
+  .subscribe-graphic-br {
+    display: block;
+    position: absolute;
+  }
+
+  .subscribe-graphic-tl {
+    top: -12%;
+    left: -5%;
+  }
+
+  .subscribe-graphic-br {
+    bottom: -50%;
+    right: -5%;
+  }
+
+  .input__text,
+  .btn__subscribe {
+    font-size: var(--fs-h6);
+  }
+}
