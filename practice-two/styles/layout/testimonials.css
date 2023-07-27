@@ -111,6 +111,10 @@
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
+  .testimonials__container {
+    max-width: var(--width-max);
+  }
+
   .testimonials__content .title__container {
     align-items: center;
   }
