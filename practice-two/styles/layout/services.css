@@ -43,6 +43,7 @@
 }
 
 .card__desc {
+  font-size: var(--fs-m);
   text-align: center;
 }
 
