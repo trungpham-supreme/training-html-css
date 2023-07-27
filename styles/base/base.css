@@ -32,7 +32,7 @@ h6 {
 p {
   font-family: "Inter";
   font-style: normal;
-  color: var(--color-grey-scale-black);
+  color: var(--color-grey-scale-black-50);
   font-size: var(--fs-s);
   font-weight: var(--fw-light);
   line-height: var(--lh-xl);
