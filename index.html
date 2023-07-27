@@ -99,7 +99,8 @@
               <span>Get Started</span>
             </button>
             <button class="btn btn--secondary btn__watch-demo">
-              <img src="./assets/images/play-icon.png" alt="Watch Demo" class="play__icon"/>
+              <img src="./assets/images/play-icon.png" alt="Watch Demo"
+                class="play__icon" />
               <span>Watch demo</span>
             </button>
           </div>
@@ -195,14 +196,21 @@
         <div class="destination__container">
           <ul class="destination__list">
             <li class="destination__item">
-              <img src="./assets/images/beach.png" alt="beach" />
+              <picture>
+                <source media="(min-width:1200px)"
+                  srcset="./assets/images/beach-desktop.png">
+                <source media="(min-width:768px)"
+                  srcset="./assets/images/beach-tablet.png">
+                <img src="./assets/images/beach-mobile.png" alt="Beach"
+                  style="width: 100%;">
+              </picture>
               <div class="item__container">
                 <div class="item__content">
                   <div class="item-content__info">
                     <h6 class="text--pink">$550.16</h6>
                     <h6>Paradise Beach, Bantayan Island</h6>
                   </div>
-                  <p>Rome, Italy</p>
+                  <p class="item-content__location">Rome, Italy</p>
                 </div>
                 <div class="item-content__rate">
                   <h6 class="text--orange">4.8</h6>
@@ -212,14 +220,21 @@
               </div>
             </li>
             <li class="destination__item">
-              <img src="./assets/images/fish.png" alt="fish" />
+              <picture>
+                <source media="(min-width:1200px)"
+                  srcset="./assets/images/fish-desktop.png">
+                <source media="(min-width:768px)"
+                  srcset="./assets/images/fish-tablet.png">
+                <img src="./assets/images/fish-mobile.png" alt="Fish"
+                  style="width: 100%;">
+              </picture>
               <div class="item__container">
                 <div class="item__content">
                   <div class="item-content__info">
                     <h6 class="text--pink">$20.99</h6>
                     <h6>Ocean with full of Colors</h6>
                   </div>
-                  <p>Maldives</p>
+                  <p class="item-content__location">Maldives</p>
                 </div>
                 <div class="item-content__rate">
                   <h6 class="text--orange">4.5</h6>
@@ -229,7 +244,14 @@
               </div>
             </li>
             <li class="destination__item">
-              <img src="./assets/images/mountain.png" alt="mountain" />
+              <picture>
+                <source media="(min-width:1200px)"
+                  srcset="./assets/images/mountain-desktop.png">
+                <source media="(min-width:768px)"
+                  srcset="./assets/images/mountain-tablet.png">
+                <img src="./assets/images/mountain-mobile.png" alt="Mountain"
+                  style="width: 100%;">
+              </picture>
               <div class="item__container">
                 <div class="item__content">
                   <div class="item-content__info">
@@ -237,7 +259,7 @@
                     <h6>Mountain View,
                       Above the cloud</h6>
                   </div>
-                  <p>United Arab Emeries</p>
+                  <p class="item-content__location">United Arab Emeries</p>
                 </div>
                 <div class="item-content__rate">
                   <h6 class="text--orange">5.0</h6>
