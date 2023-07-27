@@ -31,7 +31,7 @@
 .list__container .item__content {
   display: flex;
   align-self: stretch;
-  padding: 30px;
+  padding: 32px;
   border-radius: 32px;
   border: 1px solid rgba(25, 24, 37, 0.1);
   background: var(--color-white);
@@ -52,11 +52,16 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
   .travel-point {
-    padding: 64px 0;
+    padding: 64px 32px;
   }
 
   .travel-point__list {
     gap: 32px;
+  }
+
+  .travel-point__content {
+    margin-top: 40px;
+    gap: 64px;
   }
 
   .list__container {
@@ -68,6 +73,7 @@
 /* Desktop */
 @media screen and (min-width: 1200px) {
   .travel-point {
+    padding: 64px 0;
     grid-column: 1 / span 2;
     flex-direction: row;
     justify-content: end;
@@ -76,8 +82,7 @@
   }
 
   .travel-point__content {
-    max-width: 440px;
-    gap: 64px;
+    margin-top: 30px;
   }
 
   .travel-point__desc,
@@ -90,7 +95,7 @@
     display: flex;
     position: absolute;
     right: 0;
-    top: 47.5%;
+    top: 47%;
     z-index: -1;
   }
 }

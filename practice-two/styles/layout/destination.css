@@ -79,6 +79,7 @@
 @media screen and (min-width: 768px) {
   .destination {
     gap: 64px;
+    padding: 64px 0px;
   }
 
   .destination__container{
