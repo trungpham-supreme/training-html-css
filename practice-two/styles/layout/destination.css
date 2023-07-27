@@ -32,7 +32,7 @@
   align-self: stretch;
 }
 
-.item__container{
+.item__container {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -70,10 +70,19 @@
   font-size: var(--fs-h6);
 }
 
+.item-content__location {
+  font-size: var(--fs-m);
+  color: var(--color-grey-scale-black-75);
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .destination {
     gap: 64px;
+  }
+
+  .destination__container{
+    gap: 64px
   }
 
   .destination__list {
