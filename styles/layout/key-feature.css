@@ -1,6 +1,6 @@
 .key-feature {
   flex-direction: column;
-  padding: 32px 0px;
+  padding: 32px 32px;
   gap: 64px;
 }
 
@@ -91,7 +91,12 @@
 
 @media screen and (min-width: 768px) {
   .key-feature {
-    padding: 64px 0;
+    padding: 64px 32px;
+    gap: 70px;
+  }
+
+  .key-feature__list {
+    gap: 0;
   }
 
   .key-feature__content {
@@ -109,13 +114,15 @@
     grid-column: 2 / span 3;
     justify-content: start;
     flex-direction: row-reverse;
-  }
-
-  .testimonials__container {
-    max-width: var(--width-max);
+    padding: 64px 0;
+   
   }
 
   .key-feature__content {
     text-align: start;
+  }
+
+  .key-feature__container{
+    max-width: 550px;
   }
 }
