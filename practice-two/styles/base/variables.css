@@ -11,7 +11,7 @@
   --fs-h1: 40px;
   --fs-h2: 16px;
   --fs-h3: 32px;
-  --fs-h4: 28px;
+  --fs-h4: 35px;
   --fs-h5: 24px;
   --fs-h6: 23px;
 
@@ -42,7 +42,6 @@
     --fs-h1: 56px;
     --fs-h2: 23px;
     --fs-h3: 40px;
-    --fs-h4: 32px;
     --fs-h5: 28px;
   }
 }
@@ -52,7 +51,6 @@
     --fs-h1: 69px;
     --fs-h2: 23px;
     --fs-h3: 44px;
-    --fs-h4: 32px;
     --fs-h5: 28px;
   }
 }
