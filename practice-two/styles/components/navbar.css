@@ -10,6 +10,6 @@
 }
 
 .nav__link {
-  color: var(--color-grey-scale-black);
+  color: var(--color-grey-scale-black-50);
   font-size: var(--fs-xs);
 }

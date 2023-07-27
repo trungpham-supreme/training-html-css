@@ -27,7 +27,8 @@
   --color-yellow: #facd49;
   --color-white: #fff;
   --color-purple: #5d50c6;
-  --color-grey-scale-black: rgba(25, 24, 37, 0.75);
+  --color-grey-scale-black-50: rgba(25, 24, 37, 0.50);
+  --color-grey-scale-black-75: rgba(25, 24, 37, 0.75);
 
   /* Line height */
   --lh-sm: 80%;
