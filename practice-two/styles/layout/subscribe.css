@@ -4,7 +4,7 @@
   padding: 64px 32px;
   background: rgba(250, 205, 73, 0.08);
   gap: 64px;
-  border-radius: 32px;  
+  border-radius: 32px;
 }
 
 .subscribe .title__container {
@@ -23,30 +23,31 @@
 .input__text {
   height: inherit;
   width: 100%;
-  padding: 24px 70px;
+  padding: 24px 80px;
+  border-radius: 16px;
   border: 1px solid transparent;
-  border-radius: 32px;
   font-size: var(--fs-xs);
   font-family: "Circular Std";
   font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lg);
   color: rgba(25, 24, 37, 0.75);
 }
 
 .email__icon {
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
+  border-radius: 16px;
   left: 32px;
-  top: 9%;
+  top: 13%;
 }
 
 .btn__subscribe {
   width: 100%;
-  padding: 32px 64px;
-  border-radius: 32px;
-  font-size: 16px;
+  padding: 24px 64px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .subscribe-graphic-tl,
@@ -58,6 +59,8 @@
 
 @media screen and (min-width: 768px) {
   .email__icon {
+    width: 32px;
+    height: 32px;
     top: 30%;
   }
 
@@ -72,6 +75,16 @@
     grid-template-rows: auto;
   }
 
+  .input__text,
+  .btn__subscribe {
+    font-size: var(--fs-h6);
+    border-radius: 32px;
+  }
+
+  .btn__subscribe{
+    padding: 32px 64px;
+  }
+
   .subscribe-graphic-tl,
   .subscribe-graphic-br {
     display: block;
@@ -79,17 +92,12 @@
 
   .subscribe-graphic-tl {
     top: -12%;
-    left: -5%;
+    left: -3%;
   }
 
   .subscribe-graphic-br {
     bottom: -4%;
     right: -64px;
-  }
-
-  .input__text,
-  .btn__subscribe {
-    font-size: var(--fs-h6);
   }
 }
 
@@ -99,7 +107,7 @@
     align-items: center;
   }
 
-  .subscribe{
+  .subscribe {
     margin-top: 133px;
   }
 

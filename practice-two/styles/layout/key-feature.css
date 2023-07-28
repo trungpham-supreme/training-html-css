@@ -115,7 +115,7 @@
     justify-content: start;
     flex-direction: row-reverse;
     padding: 64px 0;
-   
+    padding-bottom: 12px;
   }
 
   .key-feature__content {
