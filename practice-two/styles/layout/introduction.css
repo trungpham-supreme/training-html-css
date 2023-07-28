@@ -137,7 +137,7 @@
   background: var(--color-white);
 }
 
-.play__icon{
+.play__icon {
   padding: 2px;
 }
 
@@ -190,9 +190,7 @@
   }
 
   .btn__watch-demo {
-    display: flex;
     padding: 1rem 2rem;
-    align-items: center;
     gap: 0.5rem;
   }
 
@@ -204,6 +202,21 @@
   .btn__add-contact,
   .btn-send {
     padding: 1rem;
+  }
+
+  .btn__add-contact {
+    right: 28%;
+    bottom: 7%;
+  }
+
+  .btn-send {
+    left: 2%;
+    top: 45%;
+  }
+
+  .btn-place {
+    bottom: 30%;
+    right: -5%;
   }
 
   .palace-icon {
