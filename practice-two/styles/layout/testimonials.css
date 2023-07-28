@@ -8,6 +8,7 @@
     "content content content"
     "btn-left . btn-right";
   padding: 32px 0;
+  gap: 64px;
 }
 
 .testimonials__content {
@@ -37,6 +38,7 @@
 }
 
 .testimonials__desc {
+  color: var(--color-grey-scale-black-75);
   font-size: var(--fs-m);
   font-weight: 450;
 }
@@ -85,7 +87,6 @@
   .testimonials_bg {
     display: block;
     position: absolute;
-    width: 100vw;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -106,6 +107,10 @@
 
   .testimonials__container {
     column-gap: 56px;
+  }
+
+  .testimonials__desc {
+    font-size: 23px;
   }
 }
 
