@@ -1,6 +1,6 @@
 /* Mobile first */
 .introduction {
-  padding: 32px 0px;
+  padding: 2rem 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -24,14 +24,14 @@
   position: relative;
   align-items: center;
   justify-self: center;
-  gap: 16px;
+  gap: 1rem;
   padding: 38px 50px 32px 50px;
 }
 
 .image__container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .introduction__content {
@@ -46,9 +46,9 @@
   position: absolute;
   background: #fff;
   color: #000;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   align-items: center;
-  gap: 4px;
+  gap: 0.25rem;
   bottom: 30%;
   right: 0;
   font-size: var(--fs-xxs);
@@ -56,11 +56,10 @@
 
 .btn-send {
   position: absolute;
-  width: 32px;
-  height: 32px;
+  padding: 0.5rem;
   left: 7%;
   top: 43%;
-  gap: 4px;
+  gap: 0.25rem;
   background: #f85e9f;
 }
 
@@ -68,15 +67,14 @@
   position: absolute;
   right: 30%;
   bottom: 8%;
-  width: 32px;
-  height: 32px;
-  gap: 4px;
+  padding: 0.5rem;
+  gap: 0.25rem;
   background: #ff5722;
 }
 
 .intro-icon {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
 }
 
 .palace-icon {
@@ -89,9 +87,9 @@
   background: #fff;
   color: var(--color-pink);
   font-size: var(--fs-xs);
-  padding: 16px 32px;
-  gap: 16px;
-  margin-bottom: 16px;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .explore-icon {
@@ -119,7 +117,7 @@
 
 .btn__get-started {
   display: flex;
-  padding: 24px 32px;
+  padding: 1.5rem 2rem;
   font-size: var(--fs-xs);
   justify-content: center;
   align-items: center;
@@ -128,11 +126,11 @@
 
 .btn__watch-demo {
   display: flex;
-  padding: 24px 32px;
+  padding: 1.5rem 2rem;
   font-size: var(--fs-xs);
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   align-self: stretch;
   border-radius: 100px;
   border: 1px solid #eee;
@@ -146,15 +144,15 @@
 .introduction__btn-group {
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 1.5rem;
   align-self: stretch;
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   .introduction {
-    padding: 64px 0;
-    margin-bottom: 32px;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
   }
 
   .image-collection {
@@ -164,7 +162,7 @@
 
   .image__container,
   .image-collection {
-    gap: 32px;
+    gap: 2rem;
   }
 
   .btn__explore {
@@ -188,35 +186,34 @@
   }
 
   .btn__get-started {
-    padding: 16px 32px;
+    padding: 1rem 2rem;
   }
 
   .btn__watch-demo {
     display: flex;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
   }
 
   .intro-icon {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
   }
 
   .btn__add-contact,
   .btn-send {
-    width: 64px;
-    height: 64px;
+    padding: 1rem;
   }
 
   .palace-icon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .btn-place {
-    padding: 16px 32px;
-    gap: 8px;
+    padding: 1rem 2rem;
+    gap: 0.5rem;
     font-size: var(--fs-xs);
   }
 }

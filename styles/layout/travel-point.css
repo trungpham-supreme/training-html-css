@@ -2,8 +2,8 @@
 .travel-point {
   position: relative;
   flex-direction: column;
-  gap: 64px;
-  padding: 32px 0px;
+  gap: 4rem;
+  padding: 2rem 0;
 }
 
 .ticket__img {
@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .travel-point__list,
@@ -24,14 +24,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   align-self: stretch;
 }
 
 .list__container .item__content {
   display: flex;
   align-self: stretch;
-  padding: 32px;
+  padding: 2rem;
   border-radius: 32px;
   border: 1px solid rgba(25, 24, 37, 0.1);
   background: var(--color-white);
@@ -52,28 +52,28 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
   .travel-point {
-    padding: 64px 32px;
+    padding: 4rem 2rem;
   }
 
   .travel-point__list {
-    gap: 32px;
+    gap: 2rem;
   }
 
   .travel-point__content {
-    margin-top: 40px;
-    gap: 64px;
+    margin-top: 2.5rem;
+    gap: 4rem;
   }
 
   .list__container {
     flex-direction: row;
-    gap: 32px;
+    gap: 2rem;
   }
 }
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
   .travel-point {
-    padding: 64px 0;
+    padding: 4rem 0;
     grid-column: 1 / span 2;
     flex-direction: row;
     justify-content: end;
@@ -82,7 +82,7 @@
   }
 
   .travel-point__content {
-    margin-top: 30px;
+    margin-top: 1.875em;
   }
 
   .travel-point__desc,
