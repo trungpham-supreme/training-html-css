@@ -7,8 +7,8 @@
   grid-template-areas:
     "content content content"
     "btn-left . btn-right";
-  padding: 32px 0;
-  gap: 64px;
+  padding: 2rem 0;
+  gap: 4rem;
 }
 
 .testimonials__content {
@@ -17,14 +17,14 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  gap: 64px;
+  gap: 4rem;
 }
 
 .testimonials__rate {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 2rem;
   align-self: stretch;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .rate__desc--highlight {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: var(--color-orange);
 }
 
@@ -46,7 +46,7 @@
 .testimonials__btn-group {
   display: flex;
   align-items: flex-start;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .testimonials__btn {
@@ -59,7 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .btn--grey {
@@ -99,15 +99,15 @@
       ". content ."
       "btn-left content btn-right"
       ". content .";
-    padding: 64px 0;
+    padding: 4rem 0;
   }
 
   .testimonials__content {
-    gap: 56px;
+    gap: 3.5rem;
   }
 
   .testimonials__container {
-    column-gap: 56px;
+    column-gap: 3.5rem;
   }
 
   .testimonials__desc {

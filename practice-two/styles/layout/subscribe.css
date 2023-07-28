@@ -1,14 +1,14 @@
 .subscribe {
   position: relative;
   flex-direction: column;
-  padding: 64px 32px;
+  padding: 4rem 2rem;
   background: rgba(250, 205, 73, 0.08);
-  gap: 64px;
+  gap: 4rem;
   border-radius: 32px;
 }
 
 .subscribe .title__container {
-  gap: 32px;
+  gap: 2rem;
 }
 
 .subscribe__form {
@@ -17,13 +17,13 @@
   grid-template-rows: auto auto;
   grid-template-columns: auto;
   align-items: stretch;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .input__text {
   height: inherit;
   width: 100%;
-  padding: 24px 80px;
+  padding: 1.5rem 5rem;
   border-radius: 16px;
   border: 1px solid transparent;
   font-size: var(--fs-xs);
@@ -45,7 +45,7 @@
 
 .btn__subscribe {
   width: 100%;
-  padding: 24px 64px;
+  padding: 1.5rem 4rem;
   font-weight: 700;
   line-height: 120%;
 }
@@ -65,7 +65,7 @@
   }
 
   .subscribe {
-    padding: 128px 64px;
+    padding: 8rem 4rem;
     margin-top: 109px;
     margin-bottom: 64px;
   }
@@ -82,7 +82,7 @@
   }
 
   .btn__subscribe{
-    padding: 32px 64px;
+    padding: 2rem 4rem;
   }
 
   .subscribe-graphic-tl,
