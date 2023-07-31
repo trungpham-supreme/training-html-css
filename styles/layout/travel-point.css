@@ -83,6 +83,7 @@
 
   .travel-point__content {
     margin-top: 1.875em;
+    max-width: 450px;
   }
 
   .travel-point__desc,
