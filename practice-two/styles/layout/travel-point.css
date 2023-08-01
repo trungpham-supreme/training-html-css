@@ -19,16 +19,15 @@
   gap: 2rem;
 }
 
-.travel-point__list,
-.list__container {
-  display: flex;
-  flex-direction: column;
+.travel-point__list {
+  display: grid;
+  grid-template-columns: 100%;
   align-items: center;
   gap: 1rem;
   align-self: stretch;
 }
 
-.list__container .item__content {
+.travel-point__list .item__content {
   display: flex;
   align-self: stretch;
   padding: 2rem;
@@ -56,6 +55,7 @@
   }
 
   .travel-point__list {
+    grid-template-columns: auto auto;
     gap: 2rem;
   }
 
