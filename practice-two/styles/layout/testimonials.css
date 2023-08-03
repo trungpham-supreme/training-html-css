@@ -29,7 +29,7 @@
 }
 
 .rate__desc {
-  font-size: var(--fs-h6);
+  font-size: 1.4375rem;
 }
 
 .rate__desc--highlight {

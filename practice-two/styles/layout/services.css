@@ -38,7 +38,7 @@
 }
 
 .card__title {
-  font-size: var(--fs-h5);
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -56,6 +56,10 @@
 
   .card__list {
     flex-direction: row;
+  }
+
+  .card__title{
+    font-size: 1.75rem;
   }
 }
 

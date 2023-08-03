@@ -77,7 +77,7 @@
 
   .input__text,
   .btn__subscribe {
-    font-size: var(--fs-h6);
+    font-size: 1.4375rem;
     border-radius: 32px;
   }
 
