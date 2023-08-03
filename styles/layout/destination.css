@@ -55,7 +55,7 @@
 }
 
 .item-content__rate {
-  font-size: var(--fs-h6);
+  font-size: 1.4375rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -67,7 +67,7 @@
   align-items: flex-start;
   gap: 0.5rem;
   align-self: stretch;
-  font-size: var(--fs-h6);
+  font-size: 1.4375rem;
 }
 
 .item-content__location {
